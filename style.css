@@ -1,0 +1,142 @@
+
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.top-banner{
+   display: flex;
+    width: 100%;
+ margin-bottom: 100px;
+}
+.left-part{
+    width: 50%;  
+}
+.right-part{
+   width: 50%; 
+}
+.left-part{
+    margin: 0px 60px;
+}
+.left-part h1{
+    font-size: 50px;
+}
+.left-part span{
+    color: #FA6F5B;
+}
+.about-me{
+    margin-top: 10px;
+}
+.about-me h3{
+    font-size: 28px;
+}
+.button{
+    margin-top: 5px;
+    padding: 6px 10px;
+    font-size: 16px;
+    color: white;
+    border: none;
+    background-color: #FA6F5B;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.right-part img{
+    width: 100%;
+    border-radius: 50%;
+ 
+}
+.top-banner{
+    background-image: url(portofolio_photos/top-banner.png);
+    background-repeat: no-repeat;
+}
+
+.mid-section{
+    display: flex;
+    width: 100%;
+    background-image: url(portofolio_photos/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+.left-side{
+    width: 40%;
+}
+.left-side img{
+    width: 100%;
+    border-radius: 50%;
+}
+.right-side{
+    width: 60%;
+}
+.right-side h1{
+    font-size: 50px;
+}
+.right-side h3{
+    font-size: 28px;
+}
+.right-side p{
+    font-size: 16px;
+    width: 80%;
+}
+.right-side span{
+    color: #FFBA24;
+}
+.button-2{
+    border: 1px solid #FFBA24;
+    background:#FFA032;
+    color: white;
+    border-radius: 10px;
+    font-size: 17px;
+    padding: 7px 12px;
+    text-decoration: none;
+}
+.parent-box{
+    display: flex;
+    width: 100%;
+}
+.ex{
+    font-size: 40px;
+}
+.left-box{
+ width: 50%;
+ border-left: 5px solid;
+ border-image:linear-gradient(purple,tomato);
+ border-image-slice: 1;
+ padding: 5px 10px;
+ box-shadow:3px 3px  9px gray;
+ border-radius: 10px;
+ margin-top: 2%;
+ margin-left: 8%;
+}
+.left-box h3{
+    color: crimson;
+}
+.right-box{
+width: 50%;
+margin-top:2%;
+border-left: 5px solid;
+ border-image:linear-gradient(cyan,blue);
+ border-image-slice: 1;
+padding: 5px 10px;
+box-shadow: 3px 3px  9px gray;
+border-radius: 10px;
+margin-right: 8%;
+margin-left: 3%;
+}
+.right-box h3{
+    color: orange;
+}
+.exprience-area{
+    background-image: url(portofolio_photos/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position:left bottom;
+    margin-bottom: 5%;
+    margin-top: 6%;
+}
+.exprience-area h1{
+    text-align: center;
+}
+.footer p{
+    color: rgb(100, 99, 99);
+    text-align: center;
+}
